@@ -11,9 +11,15 @@ sudo apt install gnome-tweak-tool
 First I swapped the dashboard hotkey to the right side and then under "Additional Layout Options" 
 you can use "Ctrl position/ Swap Left Win with Left Ctrl" to good effect.
 
+**ubuntu default shortcut**
+
+https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal
+http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 
 ## Ubuntu | 安装oh-my-zsh
 
 部分插件安不上，可以单独 google 安装方法
 
 https://www.jianshu.com/p/ba782b57ae96
+
+
