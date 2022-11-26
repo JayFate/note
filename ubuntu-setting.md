@@ -11,6 +11,8 @@ sudo apt install gnome-tweak-tool
 First I swapped the dashboard hotkey to the right side and then under "Additional Layout Options" 
 you can use "Ctrl position/ Swap Left Win with Left Ctrl" to good effect.
 
+Clear Terminal via `Ctrl+L / Ctrl+Shift+K` Shortcut
+
 **ubuntu default shortcut**
 
 https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal
