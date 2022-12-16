@@ -9,3 +9,9 @@ sudo npm install -g nrm --registry=https://registry.npm.taobao.org
 nrm ls
 nrm use taobao
 ```
+
+使用淘宝仓库安装
+
+```bash
+ npm i --registry=https://registry.npm.taobao.org/
+ ```
