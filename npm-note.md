@@ -15,3 +15,46 @@ nrm use taobao
 ```bash
  npm i --registry=https://registry.npm.taobao.org/
  ```
+
+### 2.1 配置国内镜像源
+
+npm和yarn默认是从国外源站拉取依赖包的，为提高下载速度和稳定性，建议配置为国内镜像源。
+
+yarn registry国内镜像：
+
+```bash
+yarn config set registry https://registry.npmmirror.com
+```
+
+npm registry国内镜像：
+
+```bash
+npm config set registry https://registry.npmmirror.com
+```
+
+yarn node-sass国内镜像：
+
+```bash
+yarn config set SASS_BINARY_SITE https://npmmirror.com/mirrors/node-sass/
+```
+
+npm node-sass国内镜像：
+
+```bash
+npm config set SASS_BINARY_SITE https://npmmirror.com/mirrors/node-sass/
+```
+
+如果不清楚本地当前yarn或者npm的配置，可以执行以下命令查看：
+
+yarn查看方法：
+
+```bash
+yarn config list
+```
+
+npm查看方法：
+
+```bash
+npm config list
+```
+
