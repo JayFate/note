@@ -25,3 +25,26 @@ http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 https://www.jianshu.com/p/ba782b57ae96
 
 
+### 使用 autosuggestions 插件时关闭打字机效果
+
+```bash
+code ~/.zshrc
+```
+
+在 ~/.zshrc 中加入如下代码
+
+```bash
+# 关闭打字机效果
+pasteinit() {
+OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+ zle -N self-insert url-quote-magic
+}
+
+pastefinish() {
+ zle -N self-insert $OLD_SELF_INSERT
+}
+ 
+zstyle :bracketed-paste-magic paste-init pasteinit
+zstyle :bracketed-paste-magic paste-finish pastefinish
+# 关闭打字机效果
+```
